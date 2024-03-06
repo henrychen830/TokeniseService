@@ -12,7 +12,11 @@
   ```
 
 ## Testing
-- Curl endpoints for testing
+- Unit tests
+  ```
+  npm test
+  ```
+- Curl endpoints for endpoint testing
   ```
   curl -X POST http://localhost:3000/tokenize -H "Content-Type: application/json" -d '["4111-1111-1111-1111", "4444-3333-2222-1111", "4444-1111-2222-3333"]'
   ```
