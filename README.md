@@ -8,7 +8,7 @@
   ```
 * Start node server
   ```
-  node server.js
+  npm start
   ```
 
 ## Testing
